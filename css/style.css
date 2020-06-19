@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: khaki;
+}
+img {
+  max-width: 100%;
+}
+.clear-fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}
+.content-left {
+  width: 19%;
+  height: 657px;
+  background-color: #898584;
+  position: fixed;
+}
+.menu {
+  text-align: left;
+  list-style: none;
+}
+.menu-item {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.menu-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.content-right {
+  width: 75%;
+  float: right;
+  background-color: white;
+}
+.logo {
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.h1 {
+  color: black;
+  margin-bottom: 20px;
+}
+.item {
+  margin-top: 20px;
+}
+.item-left {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.item-left img {
+  height: 400px;
+}
+.item-right {
+  float: left;
+  width: 50%;
+  text-align: left;
+  margin-top: 75px;
+}
+.p {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.image {
+  margin-bottom: 10px;
+}
+.paragraph {
+  margin-bottom: 20px;
+}
+.content-img {
+  width: 32%;
+  text-align: center;
+  float: left;
+  margin-bottom: 10px;
+}
+.game {
+  width: 50%;
+  text-align: center;
+  float: left;
+  margin-bottom: 10px;
+}
+.image1 {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+.paragraph1 {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+.h2 {
+  margin-top: 50px;
+  color: #bbb7b6;
+}
+@media (max-width: 980px) {
+  .content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .content-right {
+    width: 100%;
+    position: absolute;
+  }
+  .item-left {
+    width: 100%;
+  }
+  .item-right {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .image-top img {
+    height: 146.73px;
+  }
+  .image-bottom img {
+    height: 146.73px;
+  }
+}
